@@ -1,2 +1,1 @@
-# PracticeJavaScript
-Практика по JS
+# Практика по JS
