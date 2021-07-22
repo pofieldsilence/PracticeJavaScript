@@ -1,0 +1,117 @@
+body {
+  background: #dfbc96 url(fon3.jpg);
+  text-align: center;
+  font-family: 'Encode Sans SC', sans-serif; }
+
+.row {
+  margin: auto;
+  width: 600px; }
+
+.listItems {
+  background-color: #b69e96;
+  max-width: 650px;
+  min-height: 200px;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 30px; }
+
+.d {
+  margin-left: auto;
+  font-size: 12px;
+  color: #8b7a99;
+  padding-right: 5px; }
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.intro {
+  margin: 30px 0px;
+  font-weight: bold; }
+
+h1 {
+  color: #7a474c;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 70px;
+  font-family: 'Zen Tokyo Zoo', sans-serif; }
+
+p {
+  font-weight: 600; }
+
+#enter {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 25px;
+  color: #ede7f3;
+  background-color: #7a474c;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal; }
+
+#enter:hover {
+  background-color: #d47967;
+  color: #FFCD5D; }
+
+ul {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; }
+
+@keyframes li-enter {
+  from {
+    transform: translateY(500px); }
+  to {
+    transform: translateY(0px); } }
+
+li {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  padding: 10px 20px;
+  color: #bc7f9e;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #cfb889;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  background: #e9d8b5;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+  animation: 0.4s ease li-enter; }
+  li:hover {
+    transform: scale(1.05); }
+  li:last-child {
+    margin-bottom: 0; }
+
+li:hover {
+  background: #dfbc96;
+  border: #cea87f; }
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #b19584;
+  font-weight: 800; }
+
+input {
+  border-radius: 25px;
+  min-width: 65%;
+  padding: 5px;
+  border: none; }
+
+
+.delete {
+  display: none; }
